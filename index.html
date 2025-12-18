@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anshul Photography Gallery</title>
+  <meta name="description" content="A modern photography portfolio by Anshul." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Home">
+      <span class="brand-mark" aria-hidden="true">⬤</span>
+      <span class="brand-text">
+        <span class="brand-title">Anshul Photography Gallery</span>
+        <span class="brand-subtitle">Portfolio</span>
+      </span>
+    </a>
+
+    <nav class="topbar-actions" aria-label="Primary">
+      <a class="link" href="#gallery-section">Gallery</a>
+      <a class="link" href="#contact">Contact</a>
+      <button id="themeToggle" class="icon-btn" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <span class="icon" aria-hidden="true">☾</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Featured photo">
+      <div class="hero-bg" role="img" aria-label="Featured hero image"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <h1>Photography that tells stories in light.</h1>
+        <p class="lede">
+          Explore a curated set of images across <strong>Nature</strong>, <strong>Portrait</strong>, <strong>Product</strong>, <strong>Car</strong>, and <strong>Abstract</strong>.
+        </p>
+        <div class="hero-cta">
+          <a class="btn" href="#gallery-section">View the Gallery</a>
+          <a class="btn secondary" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery-section" class="section">
+      <div class="section-head">
+        <h2>Master Gallery</h2>
+        <p>Use categories to quickly find the vibe you want. Click any photo to view it larger.</p>
+      </div>
+
+      <div class="controls" role="region" aria-label="Gallery filters">
+        <div id="categoryPills" class="pills" aria-label="Categories"></div>
+
+        <label class="search">
+          <span class="sr-only">Search photos</span>
+          <input id="searchInput" type="search" placeholder="Search titles…" autocomplete="off" />
+        </label>
+
+        <div class="meta">
+          <span id="countLabel" class="count" aria-live="polite"></span>
+        </div>
+      </div>
+
+      <div id="gallery" class="gallery" aria-label="Photo gallery"></div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>For collaborations, prints, or projects.</p>
+      </div>
+
+      <div class="contact-card">
+        <div>
+          <h3>Email</h3>
+          <p><a href="mailto:anshuldhaas@gmail.com">anshuldhaas@gmail.com</a></p>
+        </div>
+        <div>
+          <h3>Brand</h3>
+          <p>Anshul Photography Gallery</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Anshul Photography Gallery • Built as a lightweight static site.</p>
+  </footer>
+
+  <dialog id="lightbox" class="lightbox" aria-label="Image viewer">
+    <button class="icon-btn close" type="button" aria-label="Close viewer">✕</button>
+    <figure class="lightbox-figure">
+      <img id="lightboxImg" alt="" />
+      <figcaption>
+        <div class="cap-top">
+          <h3 id="lightboxTitle"></h3>
+          <span id="lightboxCat" class="badge"></span>
+        </div>
+        <p id="lightboxAlt" class="cap-alt"></p>
+      </figcaption>
+    </figure>
+    <div class="lightbox-nav" aria-label="Lightbox navigation">
+      <button id="prevBtn" class="btn secondary" type="button">Prev</button>
+      <button id="nextBtn" class="btn secondary" type="button">Next</button>
+    </div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
