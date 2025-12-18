@@ -4,7 +4,7 @@
 - `index.html` – homepage + master gallery
 - `styles.css` – styling (supports light/dark themes)
 - `app.js` – gallery data, filters, and lightbox
-- `assets/` – your images
+- `assets/` – images
 
 ## Run locally
 Option A (Python):
