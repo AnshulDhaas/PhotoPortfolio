@@ -18,9 +18,9 @@ const DATA = [
   { id: 15, title: "Ghost Fabric at Dusk",         category: "Nature",   src: "assets/ghost-fabric-at-dusk.jpg",          alt: "Fabric caught in a tree at sunset" },
   { id: 16, title: "Industrial Bolt Macro",        category: "Abstract", src: "assets/industrial-bolt-macro.jpg",         alt: "Macro of bolt and chain in black and white" },
   { id: 17, title: "Banana Run Flatlay",           category: "Product",  src: "assets/banana-run-flatlay.jpg",            alt: "Flatlay with race bib, shoes, and accessories" },
-  { id: 18, title: "Dhaas Shake", category: "Abstract", src: "assets/DhaasShake.jpg", alt: "shaking head" },
-  { id: 19, title: "British Virgin Isles", category: "Product", src: "assets/DhaasBVI.jpg", alt: "Apple Watch" },
-  { id: 20, title: "Concept Prompt Study", category: "Abstract", src: "assets/DhaasPrompt-1.jpg", alt: "Feather, isolation }
+  { id: 18, title: "Light Swirl Study",            category: "Abstract", src: "assets/abstract-light-swirls.jpg",         alt: "Abstract light swirl pattern" },
+  { id: 19, title: "Watch in Monochrome",          category: "Product",  src: "assets/product-watch-bw.jpg",              alt: "A watch photographed in monochrome" },
+  { id: 20, title: "Feather on Forest Floor",      category: "Nature",   src: "assets/nature-feather-floor.jpg",          alt: "A feather resting on leaves and pebbles" },
 ];
 
 const CATEGORIES = ["All", "Nature", "Portrait", "Product", "Car", "Abstract"];
