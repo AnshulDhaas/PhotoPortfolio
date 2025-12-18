@@ -18,6 +18,10 @@ const DATA = [
   { id: 15, title: "Ghost Fabric at Dusk",         category: "Nature",   src: "assets/ghost-fabric-at-dusk.jpg",          alt: "Fabric caught in a tree at sunset" },
   { id: 16, title: "Industrial Bolt Macro",        category: "Abstract", src: "assets/industrial-bolt-macro.jpg",         alt: "Macro of bolt and chain in black and white" },
   { id: 17, title: "Banana Run Flatlay",           category: "Product",  src: "assets/banana-run-flatlay.jpg",            alt: "Flatlay with race bib, shoes, and accessories" },
+  { id: 18, title: "Dhaas Shake", category: "Abstract", src: "assets/DhaasShake.jpg", alt: "shaking head" },
+  { id: 19, title: "British Virgin Isles", category: "Product", src: "assets/DhaasBVI.jpg", alt: "Apple Watch" },
+  { id: 20, title: "Concept Prompt Study", 
+  category: "Abstract", src: "assets/DhaasPrompt-1.jpg", alt: "Feather, isolation },
 ];
 
 const CATEGORIES = ["All", "Nature", "Portrait", "Product", "Car", "Abstract"];
